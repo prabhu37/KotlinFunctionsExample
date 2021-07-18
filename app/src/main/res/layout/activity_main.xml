@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scoped functions"
+            android:layout_margin="20dp"
+            android:onClick="scopedFunctionsButton"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Higher order function"
+            android:layout_margin="20dp"
+            android:onClick="higherOrderFunction"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sealed class"
+            android:layout_margin="20dp"
+            android:onClick="SealedClass"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CollectionTransformationOperation"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:maxLines="2"
+            android:onClick="collectionTransformation"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coroutines"
+            android:layout_margin="20dp"
+            android:onClick="coroutines"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/white"
+            android:textStyle="italic"/>
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
